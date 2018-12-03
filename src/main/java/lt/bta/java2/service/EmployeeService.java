@@ -2,10 +2,8 @@ package lt.bta.java2.service;
 
 import lt.bta.java2.model.Employee;
 import lt.bta.java2.repositories.EmployeeRepository;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

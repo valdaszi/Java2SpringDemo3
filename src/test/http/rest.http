@@ -5,7 +5,7 @@
 # * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
 # * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
 
-GET http://localhost:8080/spring2/api/
+GET http://localhost:8080/spring3/api/
 
 ###
 
@@ -13,27 +13,27 @@ GET http://localhost:8080/spring2/api/
 # Employees
 #
 
-GET http://localhost:8080/spring2/api/profile/employees
+GET http://localhost:8080/spring3/api/profile/employees
 
 ###
 
-GET http://localhost:8080/spring2/api/employees?size=2
+GET http://localhost:8080/spring3/api/employees?size=2
 
 ###
 
-GET http://localhost:8080/spring2/api/employees/10001
+GET http://localhost:8080/spring3/api/employees/10001
 
 ###
 
-GET http://localhost:8080/spring2/api/employees
+GET http://localhost:8080/spring3/api/employees
 
 ###
 
-GET http://localhost:8080/spring2/api/employees/search
+GET http://localhost:8080/spring3/api/employees/search
 
 ###
 
-GET http://localhost:8080/spring2/api/employees/search/findByHireDate?date=1990-10-01
+GET http://localhost:8080/spring3/api/employees/search/findByHireDate?date=1990-10-01
 
 ####
 
@@ -42,23 +42,23 @@ GET http://localhost:8080/spring2/api/employees/search/findByHireDate?date=1990-
 # Pastaba: Labai daug duomenu istrauks!!!
 #
 
-GET http://localhost:8080/spring2/api/profile/dept
+GET http://localhost:8080/spring3/api/profile/dept
 
 ###
 
-GET http://localhost:8080/spring2/api/dept/search
+GET http://localhost:8080/spring3/api/dept/search
 
 ###
 
-GET http://localhost:8080/spring2/api/dept/search/byName?name=Sales
+GET http://localhost:8080/spring3/api/dept/search/byName?name=Sales
 
 ###
 
-GET http://localhost:8080/spring2/api/dept/d007
+GET http://localhost:8080/spring3/api/dept/d007
 
 ###
 
-GET http://localhost:8080/spring2/api/dept?page=0&size=2
+GET http://localhost:8080/spring3/api/dept?page=0&size=2
 Accept: application/json
 
 ###
